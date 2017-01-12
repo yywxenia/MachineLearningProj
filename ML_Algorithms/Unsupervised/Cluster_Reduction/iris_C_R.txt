@@ -1,0 +1,229 @@
+Number of selected components: [2, 3, 4]
+Number of selected clusters: [2, 3, 4, 5, 6]
+(1) Run Kmeans on dimension-reduction iris data:
+=============================================================
+Number of components for PCA reduction iris data:  2
+---------------------
+selected number of clusters:  2
+
+Adjusted mutual_info measure ([0, 1]):  0.57677064607
+Adjusted mutual_info measure ([0, 1]):  0.576770645709
+Adjusted mutual_info measure ([0, 1]):  0.478373735178
+Adjusted mutual_info measure ([0, 1]):  0.57677064607
+Adjusted mutual_info measure ([0, 1]):  0.576770645709
+---------------------
+selected number of clusters:  3
+Adjusted mutual_info measure ([0, 1]):  0.580112805432
+Adjusted mutual_info measure ([0, 1]):  0.580112805072
+Adjusted mutual_info measure ([0, 1]):  0.612771638762
+Adjusted mutual_info measure ([0, 1]):  0.766708833035
+Adjusted mutual_info measure ([0, 1]):  0.918164297326
+---------------------
+selected number of clusters:  4
+Adjusted mutual_info measure ([0, 1]):  0.504154390186
+Adjusted mutual_info measure ([0, 1]):  0.504154388057
+Adjusted mutual_info measure ([0, 1]):  0.717741012868
+Adjusted mutual_info measure ([0, 1]):  0.46401986877
+Adjusted mutual_info measure ([0, 1]):  0.744303132028
+---------------------
+selected number of clusters:  5
+Adjusted mutual_info measure ([0, 1]):  0.416925213153
+Adjusted mutual_info measure ([0, 1]):  0.417223948247
+Adjusted mutual_info measure ([0, 1]):  0.419955954389
+Adjusted mutual_info measure ([0, 1]):  0.562628553756
+Adjusted mutual_info measure ([0, 1]):  0.637745449368
+---------------------
+selected number of clusters:  6
+Adjusted mutual_info measure ([0, 1]):  0.383046570603
+Adjusted mutual_info measure ([0, 1]):  0.382793169557
+Adjusted mutual_info measure ([0, 1]):  0.46862335605
+Adjusted mutual_info measure ([0, 1]):  0.507749212016
+Adjusted mutual_info measure ([0, 1]):  0.571139309859
+=============================================================
+Number of components for PCA reduction iris data:  3
+---------------------
+selected number of clusters:  2
+Adjusted mutual_info measure ([0, 1]):  0.57677064607
+Adjusted mutual_info measure ([0, 1]):  0.57677064607
+Adjusted mutual_info measure ([0, 1]):  0.486910472718
+Adjusted mutual_info measure ([0, 1]):  0.519360729952
+Adjusted mutual_info measure ([0, 1]):  0.57677064607
+---------------------
+selected number of clusters:  3
+Adjusted mutual_info measure ([0, 1]):  0.599667121862
+Adjusted mutual_info measure ([0, 1]):  0.599667122206
+Adjusted mutual_info measure ([0, 1]):  0.766708832434
+Adjusted mutual_info measure ([0, 1]):  0.705185598589
+Adjusted mutual_info measure ([0, 1]):  0.918164297397
+---------------------
+selected number of clusters:  4
+Adjusted mutual_info measure ([0, 1]):  0.509060812508
+Adjusted mutual_info measure ([0, 1]):  0.50906081388
+Adjusted mutual_info measure ([0, 1]):  0.678338058051
+Adjusted mutual_info measure ([0, 1]):  0.777204949017
+Adjusted mutual_info measure ([0, 1]):  0.74430313131
+---------------------
+selected number of clusters:  5
+Adjusted mutual_info measure ([0, 1]):  0.451777953735
+Adjusted mutual_info measure ([0, 1]):  0.451777953079
+Adjusted mutual_info measure ([0, 1]):  0.615854664409
+Adjusted mutual_info measure ([0, 1]):  0.650278334584
+Adjusted mutual_info measure ([0, 1]):  0.635054650346
+---------------------
+selected number of clusters:  6
+Adjusted mutual_info measure ([0, 1]):  0.371332563531
+Adjusted mutual_info measure ([0, 1]):  0.407381530016
+Adjusted mutual_info measure ([0, 1]):  0.565224438431
+Adjusted mutual_info measure ([0, 1]):  0.599473494106
+Adjusted mutual_info measure ([0, 1]):  0.571139309859
+=============================================================
+Number of components for PCA reduction iris data:  4
+---------------------
+selected number of clusters:  2
+Adjusted mutual_info measure ([0, 1]):  0.57677064607
+Adjusted mutual_info measure ([0, 1]):  0.576770645709
+Adjusted mutual_info measure ([0, 1]):  0.533599847369
+Adjusted mutual_info measure ([0, 1]):  0.57677064607
+Adjusted mutual_info measure ([0, 1]):  0.57677064607
+---------------------
+selected number of clusters:  3
+Adjusted mutual_info measure ([0, 1]):  0.638801191818
+Adjusted mutual_info measure ([0, 1]):  0.638801191198
+Adjusted mutual_info measure ([0, 1]):  0.78559056739
+Adjusted mutual_info measure ([0, 1]):  0.792124469385
+Adjusted mutual_info measure ([0, 1]):  0.918164297326
+---------------------
+selected number of clusters:  4
+Adjusted mutual_info measure ([0, 1]):  0.493441782185
+Adjusted mutual_info measure ([0, 1]):  0.518492599695
+Adjusted mutual_info measure ([0, 1]):  0.504154390186
+Adjusted mutual_info measure ([0, 1]):  0.72649609469
+Adjusted mutual_info measure ([0, 1]):  0.744303132387
+---------------------
+selected number of clusters:  5
+Adjusted mutual_info measure ([0, 1]):  0.447447082468
+Adjusted mutual_info measure ([0, 1]):  0.447447080462
+Adjusted mutual_info measure ([0, 1]):  0.442101311635
+Adjusted mutual_info measure ([0, 1]):  0.476550222582
+Adjusted mutual_info measure ([0, 1]):  0.637745450246
+---------------------
+selected number of clusters:  6
+Adjusted mutual_info measure ([0, 1]):  0.38867136302
+Adjusted mutual_info measure ([0, 1]):  0.385121499574
+Adjusted mutual_info measure ([0, 1]):  0.555707100774
+Adjusted mutual_info measure ([0, 1]):  0.571822857831
+Adjusted mutual_info measure ([0, 1]):  0.574616999015
+(1) Run EM on dimension-reduction iris data:
+=============================================================
+Number of components for PCA reduction iris data:  2
+---------------------
+selected number of clusters:  2
+Adjusted mutual_info measure:  0.57677064607
+Adjusted mutual_info measure:  0.57677064607
+Adjusted mutual_info measure:  0.57677064607
+Adjusted mutual_info measure:  0.576770645709
+Adjusted mutual_info measure:  0.57677064607
+---------------------
+selected number of clusters:  3
+Adjusted mutual_info measure:  0.641931868607
+Adjusted mutual_info measure:  0.641931868914
+Adjusted mutual_info measure:  0.129559566179
+Adjusted mutual_info measure:  0.703905758363
+Adjusted mutual_info measure:  0.918164297397
+---------------------
+selected number of clusters:  4
+Adjusted mutual_info measure:  0.540979728996
+Adjusted mutual_info measure:  0.540979728996
+Adjusted mutual_info measure:  0.624364340608
+Adjusted mutual_info measure:  0.685223799915
+Adjusted mutual_info measure:  0.74931527939
+---------------------
+selected number of clusters:  5
+Adjusted mutual_info measure:  0.486418631228
+Adjusted mutual_info measure:  0.485005220137
+Adjusted mutual_info measure:  0.531400176158
+Adjusted mutual_info measure:  0.621976114836
+Adjusted mutual_info measure:  0.626481623275
+---------------------
+selected number of clusters:  6
+Adjusted mutual_info measure:  0.42461778446
+Adjusted mutual_info measure:  0.42461778042
+Adjusted mutual_info measure:  0.527837846307
+Adjusted mutual_info measure:  0.459290984271
+Adjusted mutual_info measure:  0.533755663939
+=============================================================
+Number of components for PCA reduction iris data:  3
+---------------------
+selected number of clusters:  2
+Adjusted mutual_info measure:  0.576770645709
+Adjusted mutual_info measure:  0.57677064607
+Adjusted mutual_info measure:  0.57677064607
+Adjusted mutual_info measure:  0.57677064607
+Adjusted mutual_info measure:  0.576770645709
+---------------------
+selected number of clusters:  3
+Adjusted mutual_info measure:  0.602304981483
+Adjusted mutual_info measure:  0.614838456268
+Adjusted mutual_info measure:  0.803895783504
+Adjusted mutual_info measure:  0.712108063504
+Adjusted mutual_info measure:  0.918164297326
+---------------------
+selected number of clusters:  4
+Adjusted mutual_info measure:  0.623461027526
+Adjusted mutual_info measure:  0.623461027526
+Adjusted mutual_info measure:  0.523112865282
+Adjusted mutual_info measure:  0.777014560264
+Adjusted mutual_info measure:  0.749315280458
+---------------------
+selected number of clusters:  5
+Adjusted mutual_info measure:  0.495228155641
+Adjusted mutual_info measure:  0.495228151928
+Adjusted mutual_info measure:  0.564355251056
+Adjusted mutual_info measure:  0.524854167071
+Adjusted mutual_info measure:  0.632644581162
+---------------------
+selected number of clusters:  6
+Adjusted mutual_info measure:  0.47438802666
+Adjusted mutual_info measure:  0.499235754978
+Adjusted mutual_info measure:  0.546732355259
+Adjusted mutual_info measure:  0.551827815734
+Adjusted mutual_info measure:  0.528622435488
+=============================================================
+Number of components for PCA reduction iris data:  4
+---------------------
+selected number of clusters:  2
+Adjusted mutual_info measure:  0.576770645709
+Adjusted mutual_info measure:  0.576770645709
+Adjusted mutual_info measure:  0.57677064607
+Adjusted mutual_info measure:  0.57677064607
+Adjusted mutual_info measure:  0.57677064607
+---------------------
+selected number of clusters:  3
+Adjusted mutual_info measure:  0.65552949135
+Adjusted mutual_info measure:  0.655529491645
+Adjusted mutual_info measure:  0.598694362699
+Adjusted mutual_info measure:  0.574642774215
+Adjusted mutual_info measure:  0.918164297467
+---------------------
+selected number of clusters:  4
+Adjusted mutual_info measure:  0.621315768721
+Adjusted mutual_info measure:  0.621315767568
+Adjusted mutual_info measure:  0.78674203072
+Adjusted mutual_info measure:  0.455929116682
+Adjusted mutual_info measure:  0.74931527939
+---------------------
+selected number of clusters:  5
+Adjusted mutual_info measure:  0.543482540369
+Adjusted mutual_info measure:  0.543482537422
+Adjusted mutual_info measure:  0.362157896752
+Adjusted mutual_info measure:  0.65356745207
+Adjusted mutual_info measure:  0.620956997298
+---------------------
+selected number of clusters:  6
+Adjusted mutual_info measure:  0.439962713726
+Adjusted mutual_info measure:  0.475725165221
+Adjusted mutual_info measure:  0.568363381838
+Adjusted mutual_info measure:  0.589209680707
+Adjusted mutual_info measure:  0.533755662923
+===========================THE END=================================
+

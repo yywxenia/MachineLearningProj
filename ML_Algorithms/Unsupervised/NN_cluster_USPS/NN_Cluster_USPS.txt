@@ -1,0 +1,98 @@
+
+USPS data size and dimensions: (9298, 256)
+Train data size of USPS: 6508
+Test data size of USPS: 2790
+------------------------------------------------------------------------
+Clusters: [ 3  4  6  8 10 12 14 16 18 20]
+Original accuracy baseline from NN: 
+Train and Test accuracies:  [0.96957590657652115] [0.94372759856630828]
+Train and Test time:  [48.131245136260986] [0.004462003707885742]
+Baseline test accuracy of USPS NN:  [0.94372759856630828]
+Base test time of USPS NN:  [0.004462003707885742, 0.004462003707885742, 0.004462003707885742, 0.004462003707885742, 0.004462003707885742, 0.004462003707885742, 0.004462003707885742, 0.004462003707885742, 0.004462003707885742, 0.004462003707885742]
+------------------------------------------------------------------------
+(1) NN accuracy comparison after changing clusters by EM:
+Clusters number: 3
+Train and Test accuracies:  [0.21573448063921327] [0.14336917562724014]
+Train and Test time:  [42.62090301513672] [0.007924079895019531]
+~~~~~~~~~~~~~~
+Clusters number: 4
+Train and Test accuracies:  [0.21542716656422864] [0.15197132616487455]
+Train and Test time:  [41.184823989868164] [0.007504940032958984]
+~~~~~~~~~~~~~~
+Clusters number: 6
+Train and Test accuracies:  [0.20190534726490472] [0.13906810035842293]
+Train and Test time:  [43.590306997299194] [0.005681037902832031]
+~~~~~~~~~~~~~~
+Clusters number: 8
+Train and Test accuracies:  [0.19683466502765826] [0.15519713261648746]
+Train and Test time:  [43.807109117507935] [0.005536079406738281]
+~~~~~~~~~~~~~~
+Clusters number: 10
+Train and Test accuracies:  [0.20359557467732023] [0.15591397849462366]
+Train and Test time:  [43.8033230304718] [0.00613093376159668]
+~~~~~~~~~~~~~~
+Clusters number: 12
+Train and Test accuracies:  [0.19299323909035035] [0.16272401433691755]
+Train and Test time:  [42.26834511756897] [0.0037529468536376953]
+~~~~~~~~~~~~~~
+Clusters number: 14
+Train and Test accuracies:  [0.18915181315304241] [0.16272401433691755]
+Train and Test time:  [47.182180881500244] [0.0040590763092041016]
+~~~~~~~~~~~~~~
+Clusters number: 16
+Train and Test accuracies:  [0.19237861094038106] [0.15913978494623657]
+Train and Test time:  [50.17396402359009] [0.003986835479736328]
+~~~~~~~~~~~~~~
+Clusters number: 18
+Train and Test accuracies:  [0.2032882606023356] [0.15483870967741936]
+Train and Test time:  [48.58135414123535] [0.003774881362915039]
+~~~~~~~~~~~~~~
+Clusters number: 20
+Train and Test accuracies:  [0.20282728948985865] [0.15232974910394265]
+Train and Test time:  [52.1500928401947] [0.0042951107025146484]
+~~~~~~~~~~~~~~
+------------------------------------------------------------------------
+(2) NN accuracy comparison after changing clusters by Kmeans:
+Clusters number: 3
+Train and Test accuracies:  [0.48478795328826058] [0.47956989247311826]
+Train and Test time:  [46.372309923172] [0.005097150802612305]
+~~~~~~~~~~~~~~
+Clusters number: 4
+Train and Test accuracies:  [0.41011063306699447] [0.40322580645161288]
+Train and Test time:  [44.96390390396118] [0.0022978782653808594]
+~~~~~~~~~~~~~~
+Clusters number: 6
+Train and Test accuracies:  [0.51982175783650886] [0.52544802867383511]
+Train and Test time:  [44.08912706375122] [0.008023977279663086]
+~~~~~~~~~~~~~~
+Clusters number: 8
+Train and Test accuracies:  [0.66594960049170249] [0.66272401433691752]
+Train and Test time:  [45.04183101654053] [0.003278970718383789]
+~~~~~~~~~~~~~~
+Clusters number: 10
+Train and Test accuracies:  [0.57145052243392747] [0.58530465949820787]
+Train and Test time:  [44.136662006378174] [0.002557992935180664]
+~~~~~~~~~~~~~~
+Clusters number: 12
+Train and Test accuracies:  [0.294099569760295] [0.30501792114695342]
+Train and Test time:  [49.54923701286316] [0.0032269954681396484]
+~~~~~~~~~~~~~~
+Clusters number: 14
+Train and Test accuracies:  [0.16502765826674862] [0.17168458781362006]
+Train and Test time:  [44.179466009140015] [0.001705169677734375]
+~~~~~~~~~~~~~~
+Clusters number: 16
+Train and Test accuracies:  [0.30823601720958821] [0.29749103942652327]
+Train and Test time:  [45.482346057891846] [0.0018630027770996094]
+~~~~~~~~~~~~~~
+Clusters number: 18
+Train and Test accuracies:  [0.24247080516287645] [0.26379928315412188]
+Train and Test time:  [44.65844106674194] [0.0029571056365966797]
+~~~~~~~~~~~~~~
+Clusters number: 20
+Train and Test accuracies:  [0.34465273509526734] [0.34623655913978496]
+Train and Test time:  [44.174476861953735] [0.0027718544006347656]
+~~~~~~~~~~~~~~
+===========================THE END=================================
+
+

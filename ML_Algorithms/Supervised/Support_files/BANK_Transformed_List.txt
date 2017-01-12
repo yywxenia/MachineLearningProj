@@ -1,0 +1,86 @@
+Feature name: "age"
+Not change!!
+Feature name: "job"
+   1 ---- admin.
+   2 ---- blue-collar
+   3 ---- entrepreneur
+   4 ---- housemaid
+   5 ---- management
+   6 ---- retired
+   7 ---- self-employed
+   8 ---- services
+   9 ---- student
+   10 ---- technician
+   11 ---- unemployed
+   12 ---- unknown
+Feature name: "marital"
+   1 ---- divorced
+   2 ---- married
+   3 ---- single
+   4 ---- unknown
+Feature name: "education"
+   1 ---- basic.4y
+   2 ---- basic.6y
+   3 ---- basic.9y
+   4 ---- high.school
+   5 ---- illiterate
+   6 ---- professional.course
+   7 ---- university.degree
+   8 ---- unknown
+Feature name: "default"
+   1 ---- no
+   2 ---- unknown
+   3 ---- yes
+Feature name: "housing"
+   1 ---- no
+   2 ---- unknown
+   3 ---- yes
+Feature name: "loan"
+   1 ---- no
+   2 ---- unknown
+   3 ---- yes
+Feature name: "contact"
+   1 ---- cellular
+   2 ---- telephone
+Feature name: "month"
+   1 ---- apr
+   2 ---- aug
+   3 ---- dec
+   4 ---- jul
+   5 ---- jun
+   6 ---- mar
+   7 ---- may
+   8 ---- nov
+   9 ---- oct
+   10 ---- sep
+Feature name: "day_of_week"
+   1 ---- fri
+   2 ---- mon
+   3 ---- thu
+   4 ---- tue
+   5 ---- wed
+Feature name: "duration"
+Not change!!
+Feature name: "campaign"
+Not change!!
+Feature name: "pdays"
+Not change!!
+Feature name: "previous"
+Not change!!
+Feature name: "poutcome"
+   1 ---- failure
+   2 ---- nonexistent
+   3 ---- success
+Feature name: "empvarrate"
+Not change!!
+Feature name: "conspriceidx"
+Not change!!
+Feature name: "consconfidx"
+Not change!!
+Feature name: "euribor3m"
+Not change!!
+Feature name: "nremployed"
+Not change!!
+Feature name: "y"
+   1 ---- no
+   2 ---- yes

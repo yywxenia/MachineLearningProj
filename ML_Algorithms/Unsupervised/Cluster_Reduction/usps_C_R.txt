@@ -1,0 +1,378 @@
+
+Number of selected components: [5, 40, 100, 150, 200]
+Number of selected clusters: [ 3  6 10 14 18]
+(1) Run Kmeans on dimension-reduction USPS data:
+=============================================================
+Number of components for PCA reduction USPS data:  5
+---------------------
+selected number of clusters:  3
+
+Adjusted mutual_info measure ([0, 1]):  0.276820281378
+Adjusted mutual_info measure ([0, 1]):  0.276587976071
+Adjusted mutual_info measure ([0, 1]):  0.211991928442
+Adjusted mutual_info measure ([0, 1]):  0.231739559239
+Adjusted mutual_info measure ([0, 1]):  0.349891529669
+---------------------
+selected number of clusters:  6
+Adjusted mutual_info measure ([0, 1]):  0.415600015199
+Adjusted mutual_info measure ([0, 1]):  0.415732519608
+Adjusted mutual_info measure ([0, 1]):  0.269578243973
+Adjusted mutual_info measure ([0, 1]):  0.295651235859
+Adjusted mutual_info measure ([0, 1]):  0.638599267638
+---------------------
+selected number of clusters:  10
+Adjusted mutual_info measure ([0, 1]):  0.466873524433
+Adjusted mutual_info measure ([0, 1]):  0.467390633265
+Adjusted mutual_info measure ([0, 1]):  0.40236841205
+Adjusted mutual_info measure ([0, 1]):  0.302847456303
+Adjusted mutual_info measure ([0, 1]):  0.775478743109
+---------------------
+selected number of clusters:  14
+Adjusted mutual_info measure ([0, 1]):  0.46604952726
+Adjusted mutual_info measure ([0, 1]):  0.461623997391
+Adjusted mutual_info measure ([0, 1]):  0.367130858755
+Adjusted mutual_info measure ([0, 1]):  0.340878261239
+Adjusted mutual_info measure ([0, 1]):  0.703864586247
+---------------------
+selected number of clusters:  18
+Adjusted mutual_info measure ([0, 1]):  0.449351506155
+Adjusted mutual_info measure ([0, 1]):  0.449255527975
+Adjusted mutual_info measure ([0, 1]):  0.365529311872
+Adjusted mutual_info measure ([0, 1]):  0.279865165997
+Adjusted mutual_info measure ([0, 1]):  0.645249591471
+=============================================================
+Number of components for PCA reduction USPS data:  40
+---------------------
+selected number of clusters:  3
+Adjusted mutual_info measure ([0, 1]):  0.242333491941
+Adjusted mutual_info measure ([0, 1]):  0.259814773177
+Adjusted mutual_info measure ([0, 1]):  0.237959604943
+Adjusted mutual_info measure ([0, 1]):  0.264484640798
+Adjusted mutual_info measure ([0, 1]):  0.348574220602
+---------------------
+selected number of clusters:  6
+Adjusted mutual_info measure ([0, 1]):  0.42727850117
+Adjusted mutual_info measure ([0, 1]):  0.528183972985
+Adjusted mutual_info measure ([0, 1]):  0.445682457602
+Adjusted mutual_info measure ([0, 1]):  0.386053304006
+Adjusted mutual_info measure ([0, 1]):  0.640973894339
+---------------------
+selected number of clusters:  10
+Adjusted mutual_info measure ([0, 1]):  0.643006984033
+Adjusted mutual_info measure ([0, 1]):  0.644390244804
+Adjusted mutual_info measure ([0, 1]):  0.548579312063
+Adjusted mutual_info measure ([0, 1]):  0.56375787222
+Adjusted mutual_info measure ([0, 1]):  0.834889566793
+---------------------
+selected number of clusters:  14
+Adjusted mutual_info measure ([0, 1]):  0.590953431972
+Adjusted mutual_info measure ([0, 1]):  0.601762961495
+Adjusted mutual_info measure ([0, 1]):  0.528517549549
+Adjusted mutual_info measure ([0, 1]):  0.560582667914
+Adjusted mutual_info measure ([0, 1]):  0.743286804653
+---------------------
+selected number of clusters:  18
+Adjusted mutual_info measure ([0, 1]):  0.602374459801
+Adjusted mutual_info measure ([0, 1]):  0.596685590631
+Adjusted mutual_info measure ([0, 1]):  0.547544241196
+Adjusted mutual_info measure ([0, 1]):  0.549522908316
+Adjusted mutual_info measure ([0, 1]):  0.701179353707
+=============================================================
+Number of components for PCA reduction USPS data:  100
+---------------------
+selected number of clusters:  3
+Adjusted mutual_info measure ([0, 1]):  0.243595346124
+Adjusted mutual_info measure ([0, 1]):  0.222509621566
+Adjusted mutual_info measure ([0, 1]):  0.235482785799
+Adjusted mutual_info measure ([0, 1]):  0.249343340585
+Adjusted mutual_info measure ([0, 1]):  0.34859541223
+---------------------
+selected number of clusters:  6
+Adjusted mutual_info measure ([0, 1]):  0.414452933158
+Adjusted mutual_info measure ([0, 1]):  0.375740392069
+Adjusted mutual_info measure ([0, 1]):  0.447006100513
+Adjusted mutual_info measure ([0, 1]):  0.465776154168
+Adjusted mutual_info measure ([0, 1]):  0.640973894561
+---------------------
+selected number of clusters:  10
+Adjusted mutual_info measure ([0, 1]):  0.492867083134
+Adjusted mutual_info measure ([0, 1]):  0.494203777591
+Adjusted mutual_info measure ([0, 1]):  0.557866786608
+Adjusted mutual_info measure ([0, 1]):  0.557237924447
+Adjusted mutual_info measure ([0, 1]):  0.834889566827
+---------------------
+selected number of clusters:  14
+Adjusted mutual_info measure ([0, 1]):  0.512122649505
+Adjusted mutual_info measure ([0, 1]):  0.524053623953
+Adjusted mutual_info measure ([0, 1]):  0.57120219392
+Adjusted mutual_info measure ([0, 1]):  0.55674948579
+Adjusted mutual_info measure ([0, 1]):  0.743193444758
+---------------------
+selected number of clusters:  18
+Adjusted mutual_info measure ([0, 1]):  0.486224001261
+Adjusted mutual_info measure ([0, 1]):  0.50029264903
+Adjusted mutual_info measure ([0, 1]):  0.547559017648
+Adjusted mutual_info measure ([0, 1]):  0.565134300297
+Adjusted mutual_info measure ([0, 1]):  0.701826185359
+=============================================================
+Number of components for PCA reduction USPS data:  150
+---------------------
+selected number of clusters:  3
+Adjusted mutual_info measure ([0, 1]):  0.221429549146
+Adjusted mutual_info measure ([0, 1]):  0.222437469231
+Adjusted mutual_info measure ([0, 1]):  0.224782469777
+Adjusted mutual_info measure ([0, 1]):  0.22788638845
+Adjusted mutual_info measure ([0, 1]):  0.348568921839
+---------------------
+selected number of clusters:  6
+Adjusted mutual_info measure ([0, 1]):  0.375499485242
+Adjusted mutual_info measure ([0, 1]):  0.440984803952
+Adjusted mutual_info measure ([0, 1]):  0.492215261982
+Adjusted mutual_info measure ([0, 1]):  0.475751151226
+Adjusted mutual_info measure ([0, 1]):  0.641120364728
+---------------------
+selected number of clusters:  10
+Adjusted mutual_info measure ([0, 1]):  0.494490839531
+Adjusted mutual_info measure ([0, 1]):  0.369751142263
+Adjusted mutual_info measure ([0, 1]):  0.610209615725
+Adjusted mutual_info measure ([0, 1]):  0.596489540679
+Adjusted mutual_info measure ([0, 1]):  0.835079787072
+---------------------
+selected number of clusters:  14
+Adjusted mutual_info measure ([0, 1]):  0.515264410144
+Adjusted mutual_info measure ([0, 1]):  0.521433350006
+Adjusted mutual_info measure ([0, 1]):  0.595346235318
+Adjusted mutual_info measure ([0, 1]):  0.578361222336
+Adjusted mutual_info measure ([0, 1]):  0.743229081898
+---------------------
+selected number of clusters:  18
+Adjusted mutual_info measure ([0, 1]):  0.454054788055
+Adjusted mutual_info measure ([0, 1]):  0.475811365721
+Adjusted mutual_info measure ([0, 1]):  0.5294146136
+Adjusted mutual_info measure ([0, 1]):  0.539367432871
+Adjusted mutual_info measure ([0, 1]):  0.698488448499
+=============================================================
+Number of components for PCA reduction USPS data:  200
+---------------------
+selected number of clusters:  3
+Adjusted mutual_info measure ([0, 1]):  0.252217191528
+Adjusted mutual_info measure ([0, 1]):  0.211407862391
+Adjusted mutual_info measure ([0, 1]):  0.250466963373
+Adjusted mutual_info measure ([0, 1]):  0.240068819923
+Adjusted mutual_info measure ([0, 1]):  0.349681304925
+---------------------
+selected number of clusters:  6
+Adjusted mutual_info measure ([0, 1]):  0.338632938548
+Adjusted mutual_info measure ([0, 1]):  0.368517308464
+Adjusted mutual_info measure ([0, 1]):  0.457882948789
+Adjusted mutual_info measure ([0, 1]):  0.457024740402
+Adjusted mutual_info measure ([0, 1]):  0.641120364765
+---------------------
+selected number of clusters:  10
+Adjusted mutual_info measure ([0, 1]):  0.428790038461
+Adjusted mutual_info measure ([0, 1]):  0.444991824622
+Adjusted mutual_info measure ([0, 1]):  0.574554304727
+Adjusted mutual_info measure ([0, 1]):  0.588740715195
+Adjusted mutual_info measure ([0, 1]):  0.834889566759
+---------------------
+selected number of clusters:  14
+Adjusted mutual_info measure ([0, 1]):  0.377067956367
+Adjusted mutual_info measure ([0, 1]):  0.495538535664
+Adjusted mutual_info measure ([0, 1]):  0.576353619274
+Adjusted mutual_info measure ([0, 1]):  0.57716915871
+Adjusted mutual_info measure ([0, 1]):  0.744207104553
+---------------------
+selected number of clusters:  18
+Adjusted mutual_info measure ([0, 1]):  0.447313009644
+Adjusted mutual_info measure ([0, 1]):  0.439394081153
+Adjusted mutual_info measure ([0, 1]):  0.561182239331
+Adjusted mutual_info measure ([0, 1]):  0.579796981616
+Adjusted mutual_info measure ([0, 1]):  0.699026662848
+
+(2) Run EM on dimension-reduction USPS data:
+=============================================================
+Number of components for PCA reduction USPS data:  5
+---------------------
+selected number of clusters:  3
+Adjusted mutual_info measure:  0.260844394949
+Adjusted mutual_info measure:  0.260924443352
+Adjusted mutual_info measure:  0.194032446654
+Adjusted mutual_info measure:  0.162874997345
+Adjusted mutual_info measure:  0.301477798482
+---------------------
+selected number of clusters:  6
+Adjusted mutual_info measure:  0.418433948277
+Adjusted mutual_info measure:  0.418446570935
+Adjusted mutual_info measure:  0.289333774095
+Adjusted mutual_info measure:  0.267008896822
+Adjusted mutual_info measure:  0.62123375128
+---------------------
+selected number of clusters:  10
+Adjusted mutual_info measure:  0.481748432983
+Adjusted mutual_info measure:  0.505862640203
+Adjusted mutual_info measure:  0.325092481638
+Adjusted mutual_info measure:  0.387278623405
+Adjusted mutual_info measure:  0.74975988639
+---------------------
+selected number of clusters:  14
+Adjusted mutual_info measure:  0.475019585472
+Adjusted mutual_info measure:  0.475806609771
+Adjusted mutual_info measure:  0.32045874034
+Adjusted mutual_info measure:  0.304349177825
+Adjusted mutual_info measure:  0.677943082445
+---------------------
+selected number of clusters:  18
+Adjusted mutual_info measure:  0.45041331965
+Adjusted mutual_info measure:  0.454256248945
+Adjusted mutual_info measure:  0.354411473009
+Adjusted mutual_info measure:  0.318114121662
+Adjusted mutual_info measure:  0.638748005961
+=============================================================
+Number of components for PCA reduction USPS data:  40
+---------------------
+selected number of clusters:  3
+Adjusted mutual_info measure:  0.20285284032
+Adjusted mutual_info measure:  0.202990206437
+Adjusted mutual_info measure:  0.297162663099
+Adjusted mutual_info measure:  0.306631298843
+Adjusted mutual_info measure:  0.299646324301
+---------------------
+selected number of clusters:  6
+Adjusted mutual_info measure:  0.414099001229
+Adjusted mutual_info measure:  0.386242292347
+Adjusted mutual_info measure:  0.4684557342
+Adjusted mutual_info measure:  0.413911197527
+Adjusted mutual_info measure:  0.59276206882
+---------------------
+selected number of clusters:  10
+Adjusted mutual_info measure:  0.523346787401
+Adjusted mutual_info measure:  0.518366150408
+Adjusted mutual_info measure:  0.580544365127
+Adjusted mutual_info measure:  0.533878658082
+Adjusted mutual_info measure:  0.81838346405
+---------------------
+selected number of clusters:  14
+Adjusted mutual_info measure:  0.582808893646
+Adjusted mutual_info measure:  0.586969418975
+Adjusted mutual_info measure:  0.545309777431
+Adjusted mutual_info measure:  0.549330355516
+Adjusted mutual_info measure:  0.717634357666
+---------------------
+selected number of clusters:  18
+Adjusted mutual_info measure:  0.575981486534
+Adjusted mutual_info measure:  0.570039053169
+Adjusted mutual_info measure:  0.502770647169
+Adjusted mutual_info measure:  0.50311974012
+Adjusted mutual_info measure:  0.673811429408
+=============================================================
+Number of components for PCA reduction USPS data:  100
+---------------------
+selected number of clusters:  3
+Adjusted mutual_info measure:  0.183469145717
+Adjusted mutual_info measure:  0.1834691458
+Adjusted mutual_info measure:  0.272868918138
+Adjusted mutual_info measure:  0.253414137768
+Adjusted mutual_info measure:  0.29964632405
+---------------------
+selected number of clusters:  6
+Adjusted mutual_info measure:  0.29399302886
+Adjusted mutual_info measure:  0.323215616245
+Adjusted mutual_info measure:  0.445305699743
+Adjusted mutual_info measure:  0.445898178881
+Adjusted mutual_info measure:  0.592762069113
+---------------------
+selected number of clusters:  10
+Adjusted mutual_info measure:  0.467053488366
+Adjusted mutual_info measure:  0.446404790331
+Adjusted mutual_info measure:  0.591416392488
+Adjusted mutual_info measure:  0.605892445926
+Adjusted mutual_info measure:  0.818383463639
+---------------------
+selected number of clusters:  14
+Adjusted mutual_info measure:  0.503060014346
+Adjusted mutual_info measure:  0.507347192662
+Adjusted mutual_info measure:  0.577424940318
+Adjusted mutual_info measure:  0.56411350504
+Adjusted mutual_info measure:  0.71959048988
+---------------------
+selected number of clusters:  18
+Adjusted mutual_info measure:  0.497908202053
+Adjusted mutual_info measure:  0.499404901201
+Adjusted mutual_info measure:  0.585273948665
+Adjusted mutual_info measure:  0.574150615368
+Adjusted mutual_info measure:  0.672179212648
+=============================================================
+Number of components for PCA reduction USPS data:  150
+---------------------
+selected number of clusters:  3
+Adjusted mutual_info measure:  0.185970996055
+Adjusted mutual_info measure:  0.18602112117
+Adjusted mutual_info measure:  0.239830480253
+Adjusted mutual_info measure:  0.249022205947
+Adjusted mutual_info measure:  0.299646324122
+---------------------
+selected number of clusters:  6
+Adjusted mutual_info measure:  0.24474429354
+Adjusted mutual_info measure:  0.298413542716
+Adjusted mutual_info measure:  0.442227611386
+Adjusted mutual_info measure:  0.481910125433
+Adjusted mutual_info measure:  0.592762068987
+---------------------
+selected number of clusters:  10
+Adjusted mutual_info measure:  0.424537827968
+Adjusted mutual_info measure:  0.429229988267
+Adjusted mutual_info measure:  0.614615724576
+Adjusted mutual_info measure:  0.592307526505
+Adjusted mutual_info measure:  0.818383463602
+---------------------
+selected number of clusters:  14
+Adjusted mutual_info measure:  0.469127240378
+Adjusted mutual_info measure:  0.460920965918
+Adjusted mutual_info measure:  0.576770719938
+Adjusted mutual_info measure:  0.5803337835
+Adjusted mutual_info measure:  0.719452883231
+---------------------
+selected number of clusters:  18
+Adjusted mutual_info measure:  0.462761013846
+Adjusted mutual_info measure:  0.449370432509
+Adjusted mutual_info measure:  0.570873365213
+Adjusted mutual_info measure:  0.553282693605
+Adjusted mutual_info measure:  0.673216639192
+=============================================================
+Number of components for PCA reduction USPS data:  200
+---------------------
+selected number of clusters:  3
+Adjusted mutual_info measure:  0.184994974485
+Adjusted mutual_info measure:  0.185184847063
+Adjusted mutual_info measure:  0.26433307111
+Adjusted mutual_info measure:  0.255110372092
+Adjusted mutual_info measure:  0.299646324176
+---------------------
+selected number of clusters:  6
+Adjusted mutual_info measure:  0.296549413355
+Adjusted mutual_info measure:  0.26950471639
+Adjusted mutual_info measure:  0.527858143316
+Adjusted mutual_info measure:  0.457748021846
+Adjusted mutual_info measure:  0.592762068945
+---------------------
+selected number of clusters:  10
+Adjusted mutual_info measure:  0.40443039294
+Adjusted mutual_info measure:  0.384856547779
+Adjusted mutual_info measure:  0.616699628794
+Adjusted mutual_info measure:  0.612349247145
+Adjusted mutual_info measure:  0.818383463975
+---------------------
+selected number of clusters:  14
+Adjusted mutual_info measure:  0.458652393101
+Adjusted mutual_info measure:  0.457666716319
+Adjusted mutual_info measure:  0.559585884815
+Adjusted mutual_info measure:  0.60199861508
+Adjusted mutual_info measure:  0.725718078755
+---------------------
+selected number of clusters:  18
+Adjusted mutual_info measure:  0.457173494019
+Adjusted mutual_info measure:  0.454011253122
+Adjusted mutual_info measure:  0.560268668874
+Adjusted mutual_info measure:  0.573392735833
+Adjusted mutual_info measure:  0.672839375653
+===========================THE END=================================

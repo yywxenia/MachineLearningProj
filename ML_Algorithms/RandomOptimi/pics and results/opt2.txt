@@ -1,0 +1,31 @@
+
+ Optimization 2 - Search the minimum value of a function
+
+
+======================================================================================================
+Implement optimization algorithms on this problem: 
+Domain:  [(-50, 50), (-50, 50)] <type 'list'>
+
+
+Test: hill climb~~~~~~~~~~~~~~~~~~~~~~~~~
+Total time spend on hill climb optimization: 0.000326871871948
+Hill Climbing:  [-33, -37]
+Total cost after hill climb optimization: 0.434843042297
+
+
+Test: simulated annealing:~~~~~~~~~~~~~~~
+Total time spend on simulated annealing optimization: 0.0119075775146
+Simulated An:  [6, 18]
+Total cost after SA optimization: 0.348929641154
+
+
+Test: GA:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Total time spend on GA optimization: 0.258066654205
+GA:  [-38, -40]
+Total cost after GA optimization: 0.192602023627
+Test: MIMIC:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  VisibleDeprecationWarning)
+Total time spend on MIMIC optimization: 106.952100039
+MIMIC:  [11.0, 40.0]
+Total cost after MIMIC optimization: 0.173043076847
+-------------------------------***********FINISHED************-------------------------------------

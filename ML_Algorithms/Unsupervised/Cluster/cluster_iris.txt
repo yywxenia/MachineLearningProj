@@ -1,0 +1,94 @@
+
+Cluster_iris
+
+========================================================
+K-means: number of clusters: 6
+Clustering performance given the ground truth class assignments:
+V measure ([0, 1]):  0.637653213206
+Adjusted mutual_info measure ([0, 1]):  0.510326056741
+Adjusted rand index ([-1, 1]):  0.446168355648
+Clustering performance without the ground truth class assignments: 
+Silhouette coefficient ([-1, 1]):  0.368205696538
+Train time: [0.03808283805847168]
+Test time:  [0.0003399848937988281]
+========================================================
+EM: number of clusters: 6
+Clustering performance given the ground truth class assignments:
+V measure:  0.653064476391
+Adjusted mutual_info measure:  0.524508278461
+Adjusted rand index:  0.451094659609
+Train time: [0.02274799346923828]
+Test time:  [0.00019693374633789062]
+========================================================
+K-means: number of clusters: 5
+Clustering performance given the ground truth class assignments:
+V measure ([0, 1]):  0.693862834559
+Adjusted mutual_info measure ([0, 1]):  0.591788955074
+Adjusted rand index ([-1, 1]):  0.607896465236
+Clustering performance without the ground truth class assignments: 
+Silhouette coefficient ([-1, 1]):  0.488517550854
+Train time: [0.03935098648071289]
+Test time:  [0.00015401840209960938]
+========================================================
+EM: number of clusters: 5
+Clustering performance given the ground truth class assignments:
+V measure:  0.710895445304
+Adjusted mutual_info measure:  0.608782530557
+Adjusted rand index:  0.612050761629
+Train time: [0.021816015243530273]
+Test time:  [0.0003101825714111328]
+========================================================
+K-means: number of clusters: 4
+Clustering performance given the ground truth class assignments:
+V measure ([0, 1]):  0.721920386782
+Adjusted mutual_info measure ([0, 1]):  0.646895526783
+Adjusted rand index ([-1, 1]):  0.649817685382
+Clustering performance without the ground truth class assignments: 
+Silhouette coefficient ([-1, 1]):  0.497825690075
+Train time: [0.03453707695007324]
+Test time:  [0.00015592575073242188]
+========================================================
+EM: number of clusters: 4
+Clustering performance given the ground truth class assignments:
+V measure:  0.74836188001
+Adjusted mutual_info measure:  0.673787376506
+Adjusted rand index:  0.66853698102
+Train time: [0.022531986236572266]
+Test time:  [0.00016617774963378906]
+========================================================
+K-means: number of clusters: 3
+Clustering performance given the ground truth class assignments:
+V measure ([0, 1]):  0.758175680006
+Adjusted mutual_info measure ([0, 1]):  0.748372312748
+Adjusted rand index ([-1, 1]):  0.730238272283
+Clustering performance without the ground truth class assignments: 
+Silhouette coefficient ([-1, 1]):  0.552591944521
+Train time: [0.030295133590698242]
+Test time:  [0.000286102294921875]
+========================================================
+EM: number of clusters: 3
+Clustering performance given the ground truth class assignments:
+V measure:  0.785665181798
+Adjusted mutual_info measure:  0.775960558744
+Adjusted rand index:  0.758338452254
+Train time: [0.02012801170349121]
+Test time:  [0.0001800060272216797]
+========================================================
+K-means: number of clusters: 2
+Clustering performance given the ground truth class assignments:
+V measure ([0, 1]):  0.656519114308
+Adjusted mutual_info measure ([0, 1]):  0.519360729952
+Adjusted rand index ([-1, 1]):  0.539921829421
+Clustering performance without the ground truth class assignments: 
+Silhouette coefficient ([-1, 1]):  0.680813620271
+Train time: [0.01618790626525879]
+Test time:  [0.00016379356384277344]
+========================================================
+EM: number of clusters: 2
+Clustering performance given the ground truth class assignments:
+V measure:  0.733680436651
+Adjusted mutual_info measure:  0.57677064607
+Adjusted rand index:  0.568115942029
+Train time: [0.012311935424804688]
+Test time:  [0.00028896331787109375]
+

@@ -1,0 +1,118 @@
+Dimensionality reduction: Iris dataset:
+##################################################################
+Apply PCA reduction on iris:
+
+Selected number of components: 4
+Explained variance ratios:  [ 0.92461621  0.05301557  0.01718514  0.00518309]
+Total explained_variance_ratio:  1.0
+Train time:  [0.0003578662872314453]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Data shape: (150, 4)
+------------------------------------------------------------
+Selected number of components: 1
+Explained variance ratios:  [ 0.92461621]
+Total explained_variance_ratio:  0.924616207174
+Train time:  [0.0002682209014892578]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Selected number of components: 1
+Explained variance ratios:  [ 0.92461621]
+Total explained_variance_ratio:  0.924616207174
+Train time:  [0.00021409988403320312]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Selected number of components: 1
+Explained variance ratios:  [ 0.92461621]
+Total explained_variance_ratio:  0.924616207174
+Train time:  [0.0002079010009765625]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Selected number of components: 2
+Explained variance ratios:  [ 0.92461621  0.05301557]
+Total explained_variance_ratio:  0.977631775025
+Train time:  [0.00019502639770507812]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Selected number of components: 2
+Explained variance ratios:  [ 0.92461621  0.05301557]
+Total explained_variance_ratio:  0.977631775025
+Train time:  [0.00020313262939453125]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Selected number of components: 2
+Explained variance ratios:  [ 0.92461621  0.05301557]
+Total explained_variance_ratio:  0.977631775025
+Train time:  [0.00021791458129882812]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Selected number of components: 2
+Explained variance ratios:  [ 0.92461621  0.05301557]
+Total explained_variance_ratio:  0.977631775025
+Train time:  [0.00019598007202148438]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Selected number of components: 2
+Explained variance ratios:  [ 0.92461621  0.05301557]
+Total explained_variance_ratio:  0.977631775025
+Train time:  [0.0001919269561767578]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Selected number of components: 3
+Explained variance ratios:  [ 0.92461621  0.05301557  0.01718514]
+Total explained_variance_ratio:  0.99481691455
+Train time:  [0.00019502639770507812]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Selected number of components: 3
+Explained variance ratios:  [ 0.92461621  0.05301557  0.01718514]
+Total explained_variance_ratio:  0.99481691455
+Train time:  [0.00019121170043945312]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Scores:  [0.92461620717426829, 0.92461620717426829, 0.92461620717426829, 0.97763177502480336, 0.97763177502480336, 0.97763177502480336, 0.97763177502480336, 0.97763177502480336, 0.99481691454981014, 0.99481691454981014]
+Train time:  [[0.0002682209014892578], [0.00021409988403320312], [0.0002079010009765625], [0.00019502639770507812], [0.00020313262939453125], [0.00021791458129882812], [0.00019598007202148438], [0.0001919269561767578], [0.00019502639770507812], [0.00019121170043945312]]
+Number of components selected:  [1, 1, 1, 2, 2, 2, 2, 2, 3, 3]
+Selected number of components: 2
+Explained variance ratios:  [ 0.92461621  0.05301557]
+Total explained_variance_ratio:  0.977631775025
+Train time:  [0.0002999305725097656]
+
+===========================Finished PCA===============================
+
+Apply ICA reduction on iris:
+
+
+ICA extract the top 4 Independent components.
+Train time:  [0.0033309459686279297]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Data shape: (150, 4)
+------------------------------------------------------------
+ICA extract the top 1 Independent components.
+Train time:  [0.00043392181396484375]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ICA extract the top 2 Independent components.
+Train time:  [0.0006320476531982422]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ICA extract the top 3 Independent components.
+Train time:  [0.01367497444152832]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ICA extract the top 4 Independent components.
+Train time:  [0.004182100296020508]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Train time:  [[0.00043392181396484375], [0.0006320476531982422], [0.01367497444152832], [0.004182100296020508]]
+Number of components selected:  [1, 2, 3, 4]
+
+===========================Finished ICA===============================
+
+Number of components: 2
+Train time for Gauissian and Sparse:  [0.0004458427429199219] [0.001989126205444336]
+~~~~~~~~~~~~~~~~~~~~~~~
+Number of components: 3
+Train time for Gauissian and Sparse:  [0.00025010108947753906] [0.0004849433898925781]
+~~~~~~~~~~~~~~~~~~~~~~~
+Number of components: 4
+Train time for Gauissian and Sparse:  [0.0002219676971435547] [0.0004801750183105469]
+~~~~~~~~~~~~~~~~~~~~~~~
+=====================Finished Random Projection=======================
+
+Number of components: 1
+Train time:  [0.0007951259613037109]
+Number of components: 2
+Train time:  [0.0005171298980712891]
+Number of components: 3
+Train time:  [0.0005040168762207031]
+Number of components: 4
+Train time:  [0.0004940032958984375]
+===========================Finished LDA===============================

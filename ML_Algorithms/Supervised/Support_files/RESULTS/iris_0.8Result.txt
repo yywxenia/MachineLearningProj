@@ -1,0 +1,277 @@
+dataset.shape: (150, 5)
+===============================================================================
+  1st: Using SVMs:
+Training data size: 120
+Testing data size: 30
+-->time used on training model:  0.00276803970337
+---->time used on testing model:  8.60691070557e-05
+-->time used on training model:  0.000464200973511
+---->time used on testing model:  7.5101852417e-05
+-->time used on training model:  0.000335931777954
+---->time used on testing model:  0.000209093093872
+   The training accuracy from linear-kernel, poly-kernel, rbf-kernel:  [0.9916666666666667, 0.9916666666666667, 0.97499999999999998]
+   The testing accuracy from linear-kernel, poly-kernel, rbf-kernel:  [0.96666666666666667, 0.93666666666666667, 0.99166666666666667]
+   The max testing accuracy:  0.966666666667
+----------------------------------------------
+-->time used on training model:  0.000505924224854
+---->time used on testing model:  0.000131845474243
+-->time used on training model:  0.000546932220459
+---->time used on testing model:  0.000168800354004
+-->time used on training model:  0.000670909881592
+---->time used on testing model:  0.000188827514648
+   The testing accuracy from linear-kernel, poly-kernel, rbf-kernel at this iteration:  [0.97368421052631582, 0.97368421052631582, 0.97368421052631582]
+   The training accuracy from linear-kernel, poly-kernel, rbf-kernel at this iteration:  [0.9910714285714286, 1.0, 0.9732142857142857]
+   The max test accuracy at this iteration:  0.973684210526
+-->time used on training model:  0.000320911407471
+---->time used on testing model:  9.29832458496e-05
+-->time used on training model:  0.00342702865601
+---->time used on testing model:  0.000108003616333
+-->time used on training model:  0.000433921813965
+---->time used on testing model:  0.00021505355835
+   The testing accuracy from linear-kernel, poly-kernel, rbf-kernel at this iteration:  [0.97368421052631582, 0.89473684210526316, 0.94736842105263153]
+   The training accuracy from linear-kernel, poly-kernel, rbf-kernel at this iteration:  [0.9821428571428571, 0.9910714285714286, 0.9910714285714286]
+   The max test accuracy at this iteration:  0.973684210526
+-->time used on training model:  0.000302076339722
+---->time used on testing model:  9.58442687988e-05
+-->time used on training model:  0.0049569606781
+---->time used on testing model:  0.00026798248291
+-->time used on training model:  0.00107288360596
+---->time used on testing model:  0.00035285949707
+   The testing accuracy from linear-kernel, poly-kernel, rbf-kernel at this iteration:  [1.0, 0.97297297297297303, 1.0]
+   The training accuracy from linear-kernel, poly-kernel, rbf-kernel at this iteration:  [0.99115044247787609, 0.99115044247787609, 0.99115044247787609]
+   The max test accuracy at this iteration:  1.0
+-->time used on training model:  0.000503063201904
+---->time used on testing model:  8.82148742676e-05
+-->time used on training model:  0.0090320110321
+---->time used on testing model:  0.000115871429443
+-->time used on training model:  0.000879049301147
+---->time used on testing model:  0.000339984893799
+   The testing accuracy from linear-kernel, poly-kernel, rbf-kernel at this iteration:  [1.0, 0.97297297297297303, 0.97297297297297303]
+   The training accuracy from linear-kernel, poly-kernel, rbf-kernel at this iteration:  [0.98230088495575218, 1.0, 0.98230088495575218]
+   The max test accuracy at this iteration:  1.0
+===============================================================================
+  2ed: Using K Nearest Neighbors:
+Training data size: 120
+Testing data size: 30
+-->time used on training model:  0.00350308418274
+---->time used on testing model:  0.000385999679565
+-->time used on training model:  0.000288009643555
+---->time used on testing model:  0.000363826751709
+-->time used on training model:  0.000235795974731
+---->time used on testing model:  0.000368118286133
+-->time used on training model:  0.000239133834839
+---->time used on testing model:  0.00037693977356
+  The training accuracies:  [1.0, 1.0, 1.0, 1.0]
+  The testing accuracies:  [0.96666666666666667, 0.96666666666666667, 0.96666666666666667, 0.96666666666666667]
+   The max testing accuracy:  0.966666666667
+----------------------------------------------
+-->time used on training model:  0.000239133834839
+---->time used on testing model:  0.000539064407349
+-->time used on training model:  0.00029182434082
+---->time used on testing model:  0.000423908233643
+-->time used on training model:  0.000289916992188
+---->time used on testing model:  0.000397920608521
+-->time used on training model:  0.00083589553833
+---->time used on testing model:  0.000486135482788
+  The training accuracies from the cross validation:  [1.0, 1.0, 1.0, 1.0]
+  The testing accuracies from the cross validation:  [0.97368421052631582, 0.97368421052631582, 0.97368421052631582, 0.97368421052631582]
+  The max accuracy:  0.973684210526
+  Corresponding k to mac accuracy:  [1, 2, 3, 4]
+CV max accuracies from iterations:  [0.97368421052631582]
+-->time used on training model:  0.000255107879639
+---->time used on testing model:  0.000387907028198
+-->time used on training model:  0.000338077545166
+---->time used on testing model:  0.00044584274292
+-->time used on training model:  0.00023889541626
+---->time used on testing model:  0.00037407875061
+-->time used on training model:  0.000231981277466
+---->time used on testing model:  0.000386953353882
+  The training accuracies from the cross validation:  [1.0, 1.0, 1.0, 1.0]
+  The testing accuracies from the cross validation:  [0.94736842105263153, 0.94736842105263153, 0.94736842105263153, 0.94736842105263153]
+  The max accuracy:  0.947368421053
+  Corresponding k to mac accuracy:  [1, 2, 3, 4]
+CV max accuracies from iterations:  [0.97368421052631582, 0.94736842105263153]
+-->time used on training model:  0.000236988067627
+---->time used on testing model:  0.000349998474121
+-->time used on training model:  0.000231027603149
+---->time used on testing model:  0.00044584274292
+-->time used on training model:  0.000257968902588
+---->time used on testing model:  0.000373840332031
+-->time used on training model:  0.000236034393311
+---->time used on testing model:  0.000415086746216
+  The training accuracies from the cross validation:  [1.0, 1.0, 1.0, 1.0]
+  The testing accuracies from the cross validation:  [0.94594594594594594, 0.94594594594594594, 0.94594594594594594, 0.94594594594594594]
+  The max accuracy:  0.945945945946
+  Corresponding k to mac accuracy:  [1, 2, 3, 4]
+CV max accuracies from iterations:  [0.97368421052631582, 0.94736842105263153, 0.94594594594594594]
+-->time used on training model:  0.000246047973633
+---->time used on testing model:  0.000461101531982
+-->time used on training model:  0.000278949737549
+---->time used on testing model:  0.000583171844482
+-->time used on training model:  0.000273942947388
+---->time used on testing model:  0.000372886657715
+-->time used on training model:  0.000233888626099
+---->time used on testing model:  0.000386953353882
+  The training accuracies from the cross validation:  [1.0, 1.0, 1.0, 1.0]
+  The testing accuracies from the cross validation:  [0.97297297297297303, 0.97297297297297303, 0.97297297297297303, 0.97297297297297303]
+  The max accuracy:  0.972972972973
+  Corresponding k to mac accuracy:  [1, 2, 3, 4]
+CV max accuracies from iterations:  [0.97368421052631582, 0.94736842105263153, 0.94594594594594594, 0.97297297297297303]
+===============================================================================
+  3rd: Using Decision Tree:
+Training data size: 120
+Testing data size: 30
+-->time used on training model:  0.00250196456909
+---->time used on testing model:  5.60283660889e-05
+-->time used on training model:  0.000207185745239
+---->time used on testing model:  4.6968460083e-05
+-->time used on training model:  0.000252962112427
+---->time used on testing model:  4.88758087158e-05
+-->time used on training model:  0.000216007232666
+---->time used on testing model:  4.60147857666e-05
+-->time used on training model:  0.000219821929932
+---->time used on testing model:  4.60147857666e-05
+  The training accuracies:  [0.68333333333333335, 0.95833333333333337, 0.96666666666666667, 0.98333333333333328, 0.9916666666666667]
+  The testing accuracies: [0.59999999999999998, 0.93333333333333335, 0.93333333333333335, 0.96666666666666667, 0.96666666666666667]
+   The max testing accuracy:  0.966666666667
+----------------------------------------
+-->time used on training model:  0.000172138214111
+---->time used on testing model:  4.72068786621e-05
+-->time used on training model:  0.000189065933228
+---->time used on testing model:  4.6968460083e-05
+-->time used on training model:  0.000200986862183
+---->time used on testing model:  4.6968460083e-05
+-->time used on training model:  0.000216007232666
+---->time used on testing model:  4.6968460083e-05
+-->time used on training model:  0.000211954116821
+---->time used on testing model:  4.79221343994e-05
+  The training accuracies from the cross validation:  [0.6964285714285714, 0.9553571428571429, 0.9732142857142857, 1.0, 1.0]
+  The testing accuracies from the cross validation:  [0.57894736842105265, 0.97368421052631582, 0.97368421052631582, 0.97368421052631582, 0.97368421052631582]
+  The max accuracy from the cross validation:  0.973684210526
+  Corresponding DT depths:  [2, 3, 4, 5]
+CV max accuracies from iterations:  [0.97368421052631582]
+-->time used on training model:  0.000163793563843
+---->time used on testing model:  4.91142272949e-05
+-->time used on training model:  0.000182151794434
+---->time used on testing model:  4.6968460083e-05
+-->time used on training model:  0.000190019607544
+---->time used on testing model:  4.6968460083e-05
+-->time used on training model:  0.000197172164917
+---->time used on testing model:  4.72068786621e-05
+-->time used on training model:  0.000195026397705
+---->time used on testing model:  6.91413879395e-05
+  The training accuracies from the cross validation:  [0.6785714285714286, 0.9642857142857143, 0.9821428571428571, 0.9910714285714286, 1.0]
+  The testing accuracies from the cross validation:  [0.63157894736842102, 0.94736842105263153, 0.94736842105263153, 0.94736842105263153, 0.94736842105263153]
+  The max accuracy from the cross validation:  0.947368421053
+  Corresponding DT depths:  [2, 3, 4, 5]
+CV max accuracies from iterations:  [0.97368421052631582, 0.94736842105263153]
+-->time used on training model:  0.000200986862183
+---->time used on testing model:  5.3882598877e-05
+-->time used on training model:  0.000236034393311
+---->time used on testing model:  6.07967376709e-05
+-->time used on training model:  0.000456094741821
+---->time used on testing model:  6.38961791992e-05
+-->time used on training model:  0.000298023223877
+---->time used on testing model:  4.91142272949e-05
+-->time used on training model:  0.000226974487305
+---->time used on testing model:  4.88758087158e-05
+  The training accuracies from the cross validation:  [0.68141592920353977, 0.96460176991150437, 0.97345132743362828, 0.99115044247787609, 1.0]
+  The testing accuracies from the cross validation:  [0.6216216216216216, 0.94594594594594594, 0.94594594594594594, 0.94594594594594594, 0.91891891891891897]
+  The max accuracy from the cross validation:  0.945945945946
+  Corresponding DT depths:  [2, 3, 4]
+CV max accuracies from iterations:  [0.97368421052631582, 0.94736842105263153, 0.94594594594594594]
+-->time used on training model:  0.000174045562744
+---->time used on testing model:  4.60147857666e-05
+-->time used on training model:  0.00019907951355
+---->time used on testing model:  4.6968460083e-05
+-->time used on training model:  0.000207185745239
+---->time used on testing model:  4.6968460083e-05
+-->time used on training model:  0.000211954116821
+---->time used on testing model:  5.48362731934e-05
+-->time used on training model:  0.000371932983398
+---->time used on testing model:  5.3882598877e-05
+  The training accuracies from the cross validation:  [0.68141592920353977, 0.96460176991150437, 0.98230088495575218, 0.99115044247787609, 1.0]
+  The testing accuracies from the cross validation:  [0.6216216216216216, 0.94594594594594594, 0.97297297297297303, 0.94594594594594594, 0.97297297297297303]
+  The max accuracy from the cross validation:  0.972972972973
+  Corresponding DT depths:  [3, 5]
+CV max accuracies from iterations:  [0.97368421052631582, 0.94736842105263153, 0.94594594594594594, 0.97297297297297303]
+==============================================================================
+  4th: Using AdaBoosting:
+Training data size: 120
+Testing data size: 30
+-->time used on training model:  0.000771045684814
+---->time used on testing model:  0.000155210494995
+-->time used on training model:  0.000684976577759
+---->time used on testing model:  0.000152826309204
+-->time used on training model:  0.000684022903442
+---->time used on testing model:  0.000153064727783
+-->time used on training model:  0.000689029693604
+---->time used on testing model:  0.000153064727783
+-->time used on training model:  0.000701904296875
+---->time used on testing model:  0.000151872634888
+  The training accuracies: [1.0, 1.0, 1.0, 1.0, 1.0]
+  The testing accuracies: [0.96666666666666667, 0.96666666666666667, 0.96666666666666667, 0.96666666666666667, 0.96666666666666667]
+  The max testing accuracy:  0.966666666667
+----------------------------------------
+-->time used on training model:  0.000680923461914
+---->time used on testing model:  0.000155210494995
+-->time used on training model:  0.000680208206177
+---->time used on testing model:  0.000154972076416
+-->time used on training model:  0.000834941864014
+---->time used on testing model:  0.000208139419556
+-->time used on training model:  0.00129103660583
+---->time used on testing model:  0.000169992446899
+-->time used on training model:  0.000743865966797
+---->time used on testing model:  0.000156164169312
+  The training accuracies from the cross validation:  [1.0, 1.0, 1.0, 1.0, 1.0]
+  The testing accuracies from the cross validation:  [0.97368421052631582, 0.97368421052631582, 0.97368421052631582, 0.97368421052631582, 0.89473684210526316]
+  The max accuracy from the cross validation:  0.973684210526
+  The Corresponding DT depths:  [1, 2, 3, 4]
+Max accuracies from CV iterations:  [0.97368421052631582]
+-->time used on training model:  0.000693082809448
+---->time used on testing model:  0.0001540184021
+-->time used on training model:  0.000739097595215
+---->time used on testing model:  0.000174999237061
+-->time used on training model:  0.000710010528564
+---->time used on testing model:  0.000156164169312
+-->time used on training model:  0.000665903091431
+---->time used on testing model:  0.000154972076416
+-->time used on training model:  0.000677108764648
+---->time used on testing model:  0.000155925750732
+  The training accuracies from the cross validation:  [1.0, 1.0, 1.0, 1.0, 1.0]
+  The testing accuracies from the cross validation:  [0.94736842105263153, 0.94736842105263153, 0.94736842105263153, 0.94736842105263153, 0.94736842105263153]
+  The max accuracy from the cross validation:  0.947368421053
+  The Corresponding DT depths:  [1, 2, 3, 4, 5]
+Max accuracies from CV iterations:  [0.97368421052631582, 0.94736842105263153]
+-->time used on training model:  0.000688076019287
+---->time used on testing model:  0.000152826309204
+-->time used on training model:  0.00074315071106
+---->time used on testing model:  0.000156164169312
+-->time used on training model:  0.000702142715454
+---->time used on testing model:  0.000155925750732
+-->time used on training model:  0.000684976577759
+---->time used on testing model:  0.00016188621521
+-->time used on training model:  0.000766038894653
+---->time used on testing model:  0.000181913375854
+  The training accuracies from the cross validation:  [1.0, 1.0, 1.0, 1.0, 1.0]
+  The testing accuracies from the cross validation:  [0.91891891891891897, 0.94594594594594594, 0.94594594594594594, 0.94594594594594594, 0.94594594594594594]
+  The max accuracy from the cross validation:  0.945945945946
+  The Corresponding DT depths:  [2, 3, 4, 5]
+Max accuracies from CV iterations:  [0.97368421052631582, 0.94736842105263153, 0.94594594594594594]
+-->time used on training model:  0.00140190124512
+---->time used on testing model:  0.000153064727783
+-->time used on training model:  0.000741958618164
+---->time used on testing model:  0.000165939331055
+-->time used on training model:  0.000737190246582
+---->time used on testing model:  0.000171899795532
+-->time used on training model:  0.00103497505188
+---->time used on testing model:  0.000171899795532
+-->time used on training model:  0.000725984573364
+---->time used on testing model:  0.0001540184021
+  The training accuracies from the cross validation:  [1.0, 1.0, 1.0, 1.0, 1.0]
+  The testing accuracies from the cross validation:  [0.94594594594594594, 0.94594594594594594, 0.94594594594594594, 0.97297297297297303, 0.94594594594594594]
+  The max accuracy from the cross validation:  0.972972972973
+  The Corresponding DT depths:  [4]
+Max accuracies from CV iterations:  [0.97368421052631582, 0.94736842105263153, 0.94594594594594594, 0.97297297297297303]
+
+***FINISHED***

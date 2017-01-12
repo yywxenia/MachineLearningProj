@@ -1,0 +1,32 @@
+/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7 /Users/yywxenia/PycharmProjects/ML_Proj2_final/optim_q3_SA_2Dimpy.py
+ Optimization 3 -  
+
+
+======================================================================================================
+Implement optimization algorithms on this problem: 
+[(50, 200), (50, 200)]
+Domain:  [(50, 200), (50, 200)] <type 'list'>
+
+
+Test: hill climb~~~~~~~~~~~~~~~~~~~~~~~~~
+Total time spend on hill climb optimization: 0.0071542263031
+Hill Climbing:  [101, 101]
+Total cost after hill climb optimization: -2.73575888234
+
+
+Test: simulated annealing:~~~~~~~~~~~~~~~
+Total time spend on simulated annealing optimization: 0.0173432826996
+Simulated An:  [101, 101]
+Total cost after SA optimization: -2.73575888234
+
+
+Test: GA:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Total time spend on GA optimization: 0.0300612449646
+GA:  [101, 102]
+Total cost after GA optimization: -1.73575888234
+
+
+Test: MIMIC:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Total time spend on MIMIC optimization: 1.38074654142
+GA:  [101, 101]
+Total cost after MIMIC optimization: -2.73575888234

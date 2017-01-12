@@ -1,0 +1,462 @@
+
+NN_Reduced USPS Dataset
+##############################################################################
+(13 components)
+Original data size and dimensions: (9298, 256)
+Train data size of USPS: 6508
+Test data size of USPS: 2790
+------------------------------------------------------------------------
+Components: [  2  23  44  65  86 107 129 150 171 192 213 234 256]
+Original accuracy baseline from NN: 
+Train and Test accuracies:  [0.96542716656422867] [0.93906810035842292]
+Train and Test time:  [34.62805986404419] [0.003724813461303711]
+Baseline test accuracy of USPS NN:  [0.93906810035842292]
+Base test time of USPS NN:  [0.003724813461303711, 0.003724813461303711, 0.003724813461303711, 0.003724813461303711, 0.003724813461303711, 0.003724813461303711, 0.003724813461303711, 0.003724813461303711, 0.003724813461303711, 0.003724813461303711, 0.003724813461303711, 0.003724813461303711, 0.003724813461303711]
+------------------------------------------------------------------------
+(1) NN accuracy comparison after reducing data by PCA:
+Components number: 2
+Train and Test accuracies:  [0.56515058389674244] [0.55985663082437276]
+Train and Test time:  [31.42638611793518] [0.0034410953521728516]
+~~~~~~~~~~~~~~
+Components number: 23
+Train and Test accuracies:  [0.96097111247695144] [0.93225806451612903]
+Train and Test time:  [31.98425316810608] [0.005705833435058594]
+~~~~~~~~~~~~~~
+Components number: 44
+Train and Test accuracies:  [0.96558082360172093] [0.93512544802867381]
+Train and Test time:  [31.837944984436035] [0.0023751258850097656]
+~~~~~~~~~~~~~~
+Components number: 65
+Train and Test accuracies:  [0.97341733251382911] [0.92652329749103945]
+Train and Test time:  [32.083040952682495] [0.0026710033416748047]
+~~~~~~~~~~~~~~
+Components number: 86
+Train and Test accuracies:  [0.98171481253841431] [0.91827956989247317]
+Train and Test time:  [32.199389934539795] [0.005480051040649414]
+~~~~~~~~~~~~~~
+Components number: 107
+Train and Test accuracies:  [0.98678549477566069] [0.92437275985663081]
+Train and Test time:  [32.50050902366638] [0.0031020641326904297]
+~~~~~~~~~~~~~~
+Components number: 129
+Train and Test accuracies:  [0.98709280885064532] [0.91469534050179213]
+Train and Test time:  [34.84290885925293] [0.006499052047729492]
+~~~~~~~~~~~~~~
+Components number: 150
+Train and Test accuracies:  [0.98401966810079899] [0.90716845878136199]
+Train and Test time:  [32.054463148117065] [0.004528999328613281]
+~~~~~~~~~~~~~~
+Components number: 171
+Train and Test accuracies:  [0.98570989551321453] [0.90250896057347674]
+Train and Test time:  [34.83057403564453] [0.004928112030029297]
+~~~~~~~~~~~~~~
+Components number: 192
+Train and Test accuracies:  [0.99185617701290718] [0.91039426523297495]
+Train and Test time:  [37.88798403739929] [0.00710606575012207]
+~~~~~~~~~~~~~~
+Components number: 213
+Train and Test accuracies:  [0.99016594960049176] [0.89390681003584227]
+Train and Test time:  [36.87351393699646] [0.003762960433959961]
+~~~~~~~~~~~~~~
+Components number: 234
+Train and Test accuracies:  [0.99323909035033808] [0.89928315412186377]
+Train and Test time:  [35.52587389945984] [0.00480198860168457]
+~~~~~~~~~~~~~~
+Components number: 256
+Train and Test accuracies:  [0.99170251997541492] [0.89175627240143374]
+Train and Test time:  [36.20775580406189] [0.005690097808837891]
+~~~~~~~~~~~~~~
+------------------------------------------------------------------------
+(2) NN accuracy comparison after reducing data by ICA:
+Components number: 2
+Train and Test accuracies:  [0.49830977258758452] [0.4946236559139785]
+Train and Test time:  [35.13327693939209] [0.0048329830169677734]
+~~~~~~~~~~~~~~
+Components number: 23
+Train and Test accuracies:  [0.48801475107559927] [0.49068100358422939]
+Train and Test time:  [35.70773100852966] [0.002735137939453125]
+~~~~~~~~~~~~~~
+Components number: 44
+Train and Test accuracies:  [0.6777811923786109] [0.67455197132616485]
+Train and Test time:  [33.97571897506714] [0.002711057662963867]
+~~~~~~~~~~~~~~
+Components number: 65
+Train and Test accuracies:  [0.6439766441303012] [0.6293906810035842]
+Train and Test time:  [37.93840003013611] [0.0030579566955566406]
+~~~~~~~~~~~~~~
+Components number: 86
+Train and Test accuracies:  [0.46880762138905963] [0.45340501792114696]
+Train and Test time:  [41.92807197570801] [0.005716085433959961]
+~~~~~~~~~~~~~~
+Components number: 107
+Train and Test accuracies:  [0.46481253841425935] [0.45161290322580644]
+Train and Test time:  [37.45538687705994] [0.0031371116638183594]
+~~~~~~~~~~~~~~
+Components number: 129
+Train and Test accuracies:  [0.50676090964966192] [0.49283154121863798]
+Train and Test time:  [38.95323991775513] [0.0033898353576660156]
+~~~~~~~~~~~~~~
+Components number: 150
+Train and Test accuracies:  [0.58896742470805163] [0.59856630824372759]
+Train and Test time:  [43.07306098937988] [0.003392934799194336]
+~~~~~~~~~~~~~~
+Components number: 171
+Train and Test accuracies:  [0.53441917639827907] [0.54623655913978497]
+Train and Test time:  [41.15803408622742] [0.006306886672973633]
+~~~~~~~~~~~~~~
+Components number: 192
+Train and Test accuracies:  [0.3151505838967425] [0.2971326164874552]
+Train and Test time:  [38.11545705795288] [0.004377841949462891]
+~~~~~~~~~~~~~~
+Components number: 213
+Train and Test accuracies:  [0.46957590657652121] [0.45125448028673837]
+Train and Test time:  [34.65158700942993] [0.003406047821044922]
+~~~~~~~~~~~~~~
+Components number: 234
+Train and Test accuracies:  [0.51920712968653959] [0.51146953405017925]
+Train and Test time:  [37.53449892997742] [0.003741025924682617]
+~~~~~~~~~~~~~~
+Components number: 256
+Train and Test accuracies:  [0.30408727719729561] [0.31290322580645163]
+Train and Test time:  [49.8141188621521] [0.011090993881225586]
+~~~~~~~~~~~~~~
+------------------------------------------------------------------------
+(3) NN accuracy comparison after reducing data by RP:
+Components number: 2
+Train and Test accuracies:  [0.41518131530424096] [0.41612903225806452]
+Train and Test time:  [48.932705879211426] [0.005537986755371094]
+Train and Test accuracies:  [0.3859864781807007] [0.4050179211469534]
+Train and Test time:  [40.392204999923706] [0.002363920211791992]
+~~~~~~~~~~~~~~
+Components number: 23
+Train and Test accuracies:  [0.90334972341733255] [0.87275985663082434]
+Train and Test time:  [38.311911821365356] [0.002228975296020508]
+Train and Test accuracies:  [0.89320835894283956] [0.87275985663082434]
+Train and Test time:  [37.34097695350647] [0.002090930938720703]
+~~~~~~~~~~~~~~
+Components number: 44
+Train and Test accuracies:  [0.95067609096496619] [0.9204301075268817]
+Train and Test time:  [37.496609926223755] [0.002054929733276367]
+Train and Test accuracies:  [0.93285187461585739] [0.91362007168458781]
+Train and Test time:  [52.85885405540466] [0.002034902572631836]
+~~~~~~~~~~~~~~
+Components number: 65
+Train and Test accuracies:  [0.94867854947756602] [0.92795698924731185]
+Train and Test time:  [31.653796911239624] [0.0026199817657470703]
+Train and Test accuracies:  [0.94867854947756602] [0.9272401433691756]
+Train and Test time:  [31.619138956069946] [0.002465963363647461]
+~~~~~~~~~~~~~~
+Components number: 86
+Train and Test accuracies:  [0.9511370620774432] [0.93835125448028678]
+Train and Test time:  [31.37527894973755] [0.0022411346435546875]
+Train and Test accuracies:  [0.95251997541487399] [0.92831541218637992]
+Train and Test time:  [31.298207998275757] [0.002663135528564453]
+~~~~~~~~~~~~~~
+Components number: 107
+Train and Test accuracies:  [0.95651505838967421] [0.92616487455197127]
+Train and Test time:  [32.043527126312256] [0.0027790069580078125]
+Train and Test accuracies:  [0.95728334357713585] [0.93082437275985663]
+Train and Test time:  [34.00406789779663] [0.003423929214477539]
+~~~~~~~~~~~~~~
+Components number: 129
+Train and Test accuracies:  [0.9657344806392133] [0.93835125448028678]
+Train and Test time:  [31.732630014419556] [0.0046901702880859375]
+Train and Test accuracies:  [0.97003687768899816] [0.9272401433691756]
+Train and Test time:  [31.525856018066406] [0.0025861263275146484]
+~~~~~~~~~~~~~~
+Components number: 150
+Train and Test accuracies:  [0.95989551321450517] [0.92329749103942649]
+Train and Test time:  [39.01181602478027] [0.00323486328125]
+Train and Test accuracies:  [0.96542716656422867] [0.94695340501792113]
+Train and Test time:  [37.74076700210571] [0.0032961368560791016]
+~~~~~~~~~~~~~~
+Components number: 171
+Train and Test accuracies:  [0.95774431468961274] [0.93727598566308246]
+Train and Test time:  [38.2607798576355] [0.0034379959106445312]
+Train and Test accuracies:  [0.96204671173939771] [0.9487455197132616]
+Train and Test time:  [34.780508041381836] [0.0032041072845458984]
+~~~~~~~~~~~~~~
+Components number: 192
+Train and Test accuracies:  [0.96803933620159799] [0.93369175627240142]
+Train and Test time:  [33.519490003585815] [0.0034019947052001953]
+Train and Test accuracies:  [0.9625076828518746] [0.93512544802867381]
+Train and Test time:  [39.6125750541687] [0.0034160614013671875]
+~~~~~~~~~~~~~~
+Components number: 213
+Train and Test accuracies:  [0.97095881991395205] [0.94516129032258067]
+Train and Test time:  [32.348533153533936] [0.0033240318298339844]
+Train and Test accuracies:  [0.9657344806392133] [0.9365591397849462]
+Train and Test time:  [31.891295909881592] [0.003284931182861328]
+~~~~~~~~~~~~~~
+Components number: 234
+Train and Test accuracies:  [0.96220036877688997] [0.92508960573476706]
+Train and Test time:  [32.28906011581421] [0.0035181045532226562]
+Train and Test accuracies:  [0.97003687768899816] [0.95089605734767024]
+Train and Test time:  [32.09862303733826] [0.0034749507904052734]
+~~~~~~~~~~~~~~
+Components number: 256
+Train and Test accuracies:  [0.96727105101413646] [0.93763440860215053]
+Train and Test time:  [33.00195288658142] [0.0035851001739501953]
+Train and Test accuracies:  [0.96112476951444381] [0.93333333333333335]
+Train and Test time:  [38.7757248878479] [0.0038580894470214844]
+~~~~~~~~~~~~~~
+------------------------------------------------------------------------
+(4) NN accuracy comparison after reducing data by LDA:
+Components number: 2
+Train and Test accuracies:  [0.63859864781807008] [0.63835125448028673]
+Train and Test time:  [46.11513614654541] [0.007107973098754883]
+~~~~~~~~~~~~~~
+Components number: 23
+Train and Test accuracies:  [0.94268592501536574] [0.9311827956989247]
+Train and Test time:  [47.86355900764465] [0.00982213020324707]
+~~~~~~~~~~~~~~
+Components number: 44
+Train and Test accuracies:  [0.94406883835279654] [0.93476702508960574]
+Train and Test time:  [44.82400703430176] [0.0020041465759277344]
+~~~~~~~~~~~~~~
+Components number: 65
+Train and Test accuracies:  [0.94637369391518134] [0.92831541218637992]
+Train and Test time:  [32.85757088661194] [0.00641179084777832]
+~~~~~~~~~~~~~~
+Components number: 86
+Train and Test accuracies:  [0.94068838352796558] [0.93942652329749099]
+Train and Test time:  [31.07356595993042] [0.0038869380950927734]
+~~~~~~~~~~~~~~
+Components number: 107
+Train and Test accuracies:  [0.94391518131530427] [0.93405017921146949]
+Train and Test time:  [35.29063701629639] [0.003726959228515625]
+~~~~~~~~~~~~~~
+Components number: 129
+Train and Test accuracies:  [0.94406883835279654] [0.93154121863799288]
+Train and Test time:  [44.27065587043762] [0.008083820343017578]
+~~~~~~~~~~~~~~
+Components number: 150
+Train and Test accuracies:  [0.94499078057775043] [0.92939068100358424]
+Train and Test time:  [45.19375801086426] [0.004075050354003906]
+~~~~~~~~~~~~~~
+Components number: 171
+Train and Test accuracies:  [0.94283958205285801] [0.92544802867383513]
+Train and Test time:  [38.885257959365845] [0.006212949752807617]
+~~~~~~~~~~~~~~
+Components number: 192
+Train and Test accuracies:  [0.94422249539028891] [0.92508960573476706]
+Train and Test time:  [39.15379190444946] [0.00630497932434082]
+~~~~~~~~~~~~~~
+Components number: 213
+Train and Test accuracies:  [0.94237861094038111] [0.92903225806451617]
+Train and Test time:  [38.70427203178406] [0.008999824523925781]
+~~~~~~~~~~~~~~
+Components number: 234
+Train and Test accuracies:  [0.9465273509526736] [0.92007168458781363]
+Train and Test time:  [39.0419499874115] [0.00659489631652832]
+~~~~~~~~~~~~~~
+Components number: 256
+Train and Test accuracies:  [0.94130301167793484] [0.93189964157706096]
+Train and Test time:  [38.906445026397705] [0.0030291080474853516]
+~~~~~~~~~~~~~~
+===========================THE END=================================
+
+
+
+
+(10 components)
+Original data size and dimensions: (9298, 256)
+Train data size of USPS: 6508
+Test data size of USPS: 2790
+------------------------------------------------------------------------
+  VisibleDeprecationWarning)
+Components: [ 10  37  64  92 119 146 174 201 228 256]
+Original accuracy baseline from NN: 
+Train and Test accuracies:  [0.96942224953902889] [0.9379928315412186]
+Train and Test time:  [39.98430895805359] [0.0068798065185546875]
+Baseline test accuracy of USPS NN:  [0.9379928315412186]
+Base test time of USPS NN:  [0.0068798065185546875, 0.0068798065185546875, 0.0068798065185546875, 0.0068798065185546875, 0.0068798065185546875, 0.0068798065185546875, 0.0068798065185546875, 0.0068798065185546875, 0.0068798065185546875, 0.0068798065185546875]
+------------------------------------------------------------------------
+(1) NN accuracy comparison after reducing data by PCA:
+Components number: 10
+Train and Test accuracies:  [0.92117393976644135] [0.91935483870967738]
+Train and Test time:  [41.520726919174194] [0.005982160568237305]
+~~~~~~~~~~~~~~
+Components number: 37
+Train and Test accuracies:  [0.96496619545175166] [0.94157706093189963]
+Train and Test time:  [40.36158299446106] [0.008330106735229492]
+~~~~~~~~~~~~~~
+Components number: 64
+Train and Test accuracies:  [0.97664413030116781] [0.92974910394265231]
+Train and Test time:  [41.20752787590027] [0.003159046173095703]
+~~~~~~~~~~~~~~
+Components number: 92
+Train and Test accuracies:  [0.98186846957590657] [0.93046594982078856]
+Train and Test time:  [37.68042182922363] [0.004796028137207031]
+~~~~~~~~~~~~~~
+Components number: 119
+Train and Test accuracies:  [0.98417332513829137] [0.9204301075268817]
+Train and Test time:  [38.56367897987366] [0.007691144943237305]
+~~~~~~~~~~~~~~
+Components number: 146
+Train and Test accuracies:  [0.98924400737553775] [0.91720430107526885]
+Train and Test time:  [42.4112389087677] [0.003728151321411133]
+~~~~~~~~~~~~~~
+Components number: 174
+Train and Test accuracies:  [0.99170251997541492] [0.90501792114695345]
+Train and Test time:  [41.994174003601074] [0.008708000183105469]
+~~~~~~~~~~~~~~
+Components number: 201
+Train and Test accuracies:  [0.99262446220036882] [0.90824372759856631]
+Train and Test time:  [42.37496304512024] [0.0037581920623779297]
+~~~~~~~~~~~~~~
+Components number: 228
+Train and Test accuracies:  [0.99200983405039955] [0.89462365591397852]
+Train and Test time:  [41.959153175354004] [0.004235029220581055]
+~~~~~~~~~~~~~~
+Components number: 256
+Train and Test accuracies:  [0.99277811923786108] [0.89677419354838706]
+Train and Test time:  [43.22162914276123] [0.008394956588745117]
+~~~~~~~~~~~~~~
+------------------------------------------------------------------------
+(2) NN accuracy comparison after reducing data by ICA:
+Components number: 10
+Train and Test accuracies:  [0.46281499692685923] [0.46953405017921146]
+Train and Test time:  [39.170320987701416] [0.004553794860839844]
+~~~~~~~~~~~~~~
+Components number: 37
+Train and Test accuracies:  [0.61416717885679162] [0.61075268817204298]
+Train and Test time:  [40.887067794799805] [0.0028450489044189453]
+~~~~~~~~~~~~~~
+Components number: 64
+Train and Test accuracies:  [0.6759373079287031] [0.67491039426523303]
+Train and Test time:  [40.37603402137756] [0.00564122200012207]
+~~~~~~~~~~~~~~
+Components number: 92
+Train and Test accuracies:  [0.37845728334357714] [0.3827956989247312]
+Train and Test time:  [52.98180603981018] [0.005789995193481445]
+~~~~~~~~~~~~~~
+Components number: 119
+Train and Test accuracies:  [0.45528580208973574] [0.45842293906810033]
+Train and Test time:  [38.43129086494446] [0.005120038986206055]
+~~~~~~~~~~~~~~
+Components number: 146
+Train and Test accuracies:  [0.60955746773202213] [0.60035842293906805]
+Train and Test time:  [31.121045112609863] [0.003453969955444336]
+~~~~~~~~~~~~~~
+Components number: 174
+Train and Test accuracies:  [0.39136447449293177] [0.37706093189964157]
+Train and Test time:  [33.35997295379639] [0.00465703010559082]
+~~~~~~~~~~~~~~
+Components number: 201
+Train and Test accuracies:  [0.5018438844499078] [0.4777777777777778]
+Train and Test time:  [33.76266813278198] [0.003654003143310547]
+~~~~~~~~~~~~~~
+Components number: 228
+Train and Test accuracies:  [0.36047940995697603] [0.35089605734767026]
+Train and Test time:  [33.395691871643066] [0.003545045852661133]
+~~~~~~~~~~~~~~
+Components number: 256
+Train and Test accuracies:  [0.44161032575291947] [0.43333333333333335]
+Train and Test time:  [34.034839153289795] [0.0038280487060546875]
+~~~~~~~~~~~~~~
+------------------------------------------------------------------------
+(3) NN accuracy comparison after reducing data by RP:
+Components number: 10
+Train and Test accuracies:  [0.78856791641057156] [0.7709677419354839]
+Train and Test time:  [32.59774398803711] [0.0021729469299316406]
+Train and Test accuracies:  [0.7152735095267363] [0.70286738351254485]
+Train and Test time:  [33.092183113098145] [0.0021071434020996094]
+~~~~~~~~~~~~~~
+Components number: 37
+Train and Test accuracies:  [0.94591272280270433] [0.92222222222222228]
+Train and Test time:  [31.658281087875366] [0.0019779205322265625]
+Train and Test accuracies:  [0.93607867240319609] [0.91792114695340499]
+Train and Test time:  [31.28426504135132] [0.0020859241485595703]
+~~~~~~~~~~~~~~
+Components number: 64
+Train and Test accuracies:  [0.94483712354025817] [0.90931899641577063]
+Train and Test time:  [32.42502784729004] [0.002238035202026367]
+Train and Test accuracies:  [0.94913952059004303] [0.92939068100358424]
+Train and Test time:  [30.53407311439514] [0.002331972122192383]
+~~~~~~~~~~~~~~
+Components number: 92
+Train and Test accuracies:  [0.96404425322679776] [0.92831541218637992]
+Train and Test time:  [30.74803590774536] [0.0038149356842041016]
+Train and Test accuracies:  [0.93976644130301168] [0.92616487455197127]
+Train and Test time:  [30.76543688774109] [0.002691030502319336]
+~~~~~~~~~~~~~~
+Components number: 119
+Train and Test accuracies:  [0.95897357098955127] [0.94014336917562724]
+Train and Test time:  [31.155600786209106] [0.0025489330291748047]
+Train and Test accuracies:  [0.95974185617701291] [0.94265232974910396]
+Train and Test time:  [30.81477403640747] [0.0027818679809570312]
+~~~~~~~~~~~~~~
+Components number: 146
+Train and Test accuracies:  [0.96266133988936697] [0.92795698924731185]
+Train and Test time:  [30.991365909576416] [0.002766847610473633]
+Train and Test accuracies:  [0.96450522433927477] [0.94408602150537635]
+Train and Test time:  [31.025224208831787] [0.0030660629272460938]
+~~~~~~~~~~~~~~
+Components number: 174
+Train and Test accuracies:  [0.96926859250153652] [0.93978494623655917]
+Train and Test time:  [30.937549114227295] [0.002902984619140625]
+Train and Test accuracies:  [0.96511985248924403] [0.93870967741935485]
+Train and Test time:  [31.572115898132324] [0.002998828887939453]
+~~~~~~~~~~~~~~
+Components number: 201
+Train and Test accuracies:  [0.95958819913952054] [0.92903225806451617]
+Train and Test time:  [31.511512994766235] [0.003013134002685547]
+Train and Test accuracies:  [0.95605408727719732] [0.93297491039426528]
+Train and Test time:  [31.411447048187256] [0.0030670166015625]
+~~~~~~~~~~~~~~
+Components number: 228
+Train and Test accuracies:  [0.96880762138905963] [0.94121863799283156]
+Train and Test time:  [31.977204084396362] [0.003283977508544922]
+Train and Test accuracies:  [0.9652735095267363] [0.94802867383512546]
+Train and Test time:  [33.30159115791321] [0.0031249523162841797]
+~~~~~~~~~~~~~~
+Components number: 256
+Train and Test accuracies:  [0.96312231100184387] [0.94050179211469531]
+Train and Test time:  [32.6589789390564] [0.0036191940307617188]
+Train and Test accuracies:  [0.96404425322679776] [0.9379928315412186]
+Train and Test time:  [32.52866315841675] [0.0031011104583740234]
+~~~~~~~~~~~~~~
+------------------------------------------------------------------------
+(4) NN accuracy comparison after reducing data by LDA:
+Components number: 10
+Train and Test accuracies:  [0.9437615242778119] [0.92867383512544799]
+Train and Test time:  [31.305999994277954] [0.00817108154296875]
+~~~~~~~~~~~~~~
+Components number: 37
+Train and Test accuracies:  [0.94207129686539648] [0.93548387096774188]
+Train and Test time:  [31.35507893562317] [0.005307912826538086]
+~~~~~~~~~~~~~~
+Components number: 64
+Train and Test accuracies:  [0.94161032575291947] [0.93835125448028678]
+Train and Test time:  [31.176244974136353] [0.004029989242553711]
+~~~~~~~~~~~~~~
+Components number: 92
+Train and Test accuracies:  [0.94452980946527354] [0.92974910394265231]
+Train and Test time:  [30.96875786781311] [0.006410837173461914]
+~~~~~~~~~~~~~~
+Components number: 119
+Train and Test accuracies:  [0.94437615242778117] [0.93154121863799288]
+Train and Test time:  [31.161010026931763] [0.0038700103759765625]
+~~~~~~~~~~~~~~
+Components number: 146
+Train and Test accuracies:  [0.94314689612784264] [0.92867383512544799]
+Train and Test time:  [30.993072986602783] [0.0053141117095947266]
+~~~~~~~~~~~~~~
+Components number: 174
+Train and Test accuracies:  [0.94299323909035038] [0.93333333333333335]
+Train and Test time:  [31.145493984222412] [0.004163026809692383]
+~~~~~~~~~~~~~~
+Components number: 201
+Train and Test accuracies:  [0.93930547019053467] [0.93691756272401439]
+Train and Test time:  [31.11689805984497] [0.00528407096862793]
+~~~~~~~~~~~~~~
+Components number: 228
+Train and Test accuracies:  [0.94330055316533501] [0.93154121863799288]
+Train and Test time:  [31.01433300971985] [0.006639957427978516]
+~~~~~~~~~~~~~~
+Components number: 256
+Train and Test accuracies:  [0.94391518131530427] [0.93189964157706096]
+Train and Test time:  [31.204911947250366] [0.0037889480590820312]
+~~~~~~~~~~~~~~
+===========================THE END=================================
